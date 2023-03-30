@@ -1,16 +1,17 @@
-const panels = document.querySelectorAll('.panel');
+let heroButtons = document.querySelectorAll(".characters a"),
+    lightbox = document.querySelector('#lightbox');
 
-    function toggleOpen() {
-      console.log('Hello');
-      this.classList.toggle('open');
-    }
+function loadHeroData() {
+    // debugger;
+    lightbox.querySelector(".name").textContent = member[this.dataset.member].name;
+    lightbox.querySelector('h3').textContent = member[this.dataset.member].headline;
+    
+    lightbox.querySelector(".bio").textContent = member[this.dataset.member].bio;
 
-    function toggleActive(e) {
-      console.log(e.propertyName);
-      if (e.propertyName.includes('flex')) {
-        this.classList.toggle('open-active');
-      }
-    }
+    lightbox.querySelector(".faveColor").textContent = member[this.dataset.member].faveColor;
 
-    panels.forEach(panel => panel.addEventListener('click', toggleOpen));
-    panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
+    // heroes[this.dataset.member].headline 
+}
+
+
+heroButtons.forEach(hero => hero.addEventListener('click', loadHeroData));
