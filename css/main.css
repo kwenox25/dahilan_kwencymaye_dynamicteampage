@@ -847,7 +847,7 @@ article { padding: 20px; }
 
 article p {
     width: 80%;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.2;
     margin: 0 auto;
 }
@@ -855,7 +855,7 @@ article p {
 .sprite {
     width: 350px;
     height: 350px;
-    background-image: url('../images/teamSprites.jpg');
+    background-image: url('../images/teamSprites2.jpg');
 }
 
 #ceo { background-position: -350px 0; }
@@ -876,18 +876,14 @@ border-radius: 40% 40% 40% 0;
 .lightbox-right-side {
     margin-top: 50px;
     text-align: left;
-    font-size: 20px; 
-    grid-column: 6/-1;
+    font-size: 15px; 
+    grid-column: 6/12;
 }
 
 .bio {
     margin-top: 20px;
 }
 
-.faveColor {
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
 
  
 .imageContainer:hover .socialMedia {
@@ -906,9 +902,6 @@ border-radius: 40% 40% 40% 0;
 	text-align: center;
 } 
 
-.socialMedia > h5 {
-    
-}
 
 .socialMedia ul
 {
@@ -931,5 +924,35 @@ border-radius: 40% 40% 40% 0;
 {
    text-align: center;
 }
+
+#skill > h4 {
+    border-bottom: 5px solid #7C9b58;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#skill ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.skills {
+    text-align: left;
+    width: 100px;
+   padding: 10px;
+    border: 2px solid #2c2c2c;
+    border-radius: 15px;
+}
+
+.skills2 {
+    margin-left: 20px;
+    text-align: left;
+    width: 80px;
+    padding: 10px;
+    border: 2px solid #2c2c2c;
+    border-radius: 15px;
+}
+
+
 
 
