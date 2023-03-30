@@ -831,7 +831,7 @@ grid-column: 1/-1;}
     margin-bottom: 0;
 }
 
-.characters li h5 {
+.characters li h4 {
     text-align: center;
     position: relative;
     color: #2a87de;
@@ -865,58 +865,6 @@ article p {
 .sprite:hover { background-position-y: -350px !important; }
 
 
-/* .lightbox { 
-    width: 100vw; 
-    height: 100vh; 
-
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    background-color: rgba(0, 0, 0, 0.85);
-    background-image: url('../images/Cap_LB_Bg.png');
-    background-repeat: no-repeat;
-
-    background-size: 55vh; 
-    background-position: 40px bottom;
-
-    z-index: 5000;
-
-    display: none;
-} */
-
-/* .lightbox_close {
-    position: relative;
-    top: 20px;
-    left: 95%;
-
-    color: white;
-    font-size: 3em;
-
-    text-decoration: none;
-
-    font-weight: bolder;
-}
-
-.lightbox_close:hover { opacity: 0.5; color: red; }
-
-.lightbox article {
-    width: 55%;
-    margin-left: 40%;
-    padding-top: 50px;
-}
-
-.lb_text, .lb_heading { text-align: left; }
-
-.lb_text {
-    line-height: 1.6 !important;
-    margin-left: 0;
-    padding-top: 2em;
-} */
-
-/* turn the lightbox on using the :target pseudo selector */
-/* .lightbox:target { display: block; } */
-
 .lb_heading { text-align: left;
 font-size: 70px; 
 grid-column: 2/6;
@@ -932,9 +880,6 @@ border-radius: 40% 40% 40% 0;
     grid-column: 6/-1;
 }
 
-.name {
-    
-}
 .bio {
     margin-top: 20px;
 }
@@ -943,3 +888,48 @@ border-radius: 40% 40% 40% 0;
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
+ 
+.imageContainer:hover .socialMedia {
+	opacity: 1;
+}
+
+.socialMedia {
+    height: 30px;
+    
+	transition: .7s ease;
+	opacity: 0;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+} 
+
+.socialMedia > h5 {
+    
+}
+
+.socialMedia ul
+{
+    width: 300px;
+    padding-left: 0;
+}
+
+.socialMedia ul li
+{
+    padding-top: 10px;
+    font-size: 30px;
+    color: white;
+    background-color: #F6871F;
+    height: 45px;
+    width: 50px;
+    padding-left: 0;
+}
+
+.socialMedia ul li
+{
+   text-align: center;
+}
+
+
