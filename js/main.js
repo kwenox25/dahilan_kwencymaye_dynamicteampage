@@ -8,7 +8,8 @@ function loadHeroData() {
     
     lightbox.querySelector(".bio").textContent = member[this.dataset.member].bio;
 
-    lightbox.querySelector(".faveColor").textContent = member[this.dataset.member].faveColor;
+    lightbox.querySelector(".skills").textContent = member[this.dataset.member].skills;
+    lightbox.querySelector(".skills2").textContent = member[this.dataset.member].skills2;
 
     // heroes[this.dataset.member].headline 
 }
