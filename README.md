@@ -1,2 +1,1 @@
-# dahilan_kwencymaye_dynamicteampage
-Dynamic Team Bio Page
+# Dahilan_KwencyMaye_Midterm
