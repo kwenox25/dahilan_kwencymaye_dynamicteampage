@@ -4,7 +4,8 @@ let member = {
         headline: "Hello, I'm Kwency Dahilan ",
         bio: "As the founder and CEO of QUATRO, I recently took on the role of CEO, bringing with me five years of experience in the corporate world. As CEO, my focus is on driving growth and innovation, while maintaining the company's commitment to delivering exceptional service to our clients. I am known for my strategic thinking, my ability to inspire and motivate my team, and my passion for making a positive impact in the world.",
         skills: "#Photography",
-        skills2: "#Mentoring"
+        skills2: "#Mentoring",
+        
         
     },
 
@@ -23,5 +24,4 @@ let member = {
         skills: "#Calligraphy",
         skills2: "#Traveling"
     }
-    
 }
