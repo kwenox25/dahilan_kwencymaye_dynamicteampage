@@ -11,8 +11,14 @@ function loadHeroData() {
     lightbox.querySelector(".skills").textContent = member[this.dataset.member].skills;
     lightbox.querySelector(".skills2").textContent = member[this.dataset.member].skills2;
 
-    // heroes[this.dataset.member].headline 
+    lightbox.style.display = 'block';
 }
 
+function hideLightbox(event) {
+    if (!event.target.closest('#lightbox-content')) {
+      lightbox.style.display = 'none';
+    }
+  }
 
 heroButtons.forEach(hero => hero.addEventListener('click', loadHeroData));
+lightbox.addEventListener('click', hideLightbox);
