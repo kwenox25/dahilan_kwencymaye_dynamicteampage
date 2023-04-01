@@ -260,26 +260,6 @@ a {
     width: 60px;
 }
 
-/* About Us */
-
-/* .column {
-    display: flex;
-    float: left;
-    padding: 10px;
-   
-}
-  
-.left {
-    /* background-color: #B29961; */
-    /* width: 60%;
-    height: 700px;
-  }
-  
-.right {
-    background-color: pink;
-    width: 35%;
-    height: 700px;
-} */ 
 
 #aboutUs {
     background-color: #FBE08D;
@@ -313,13 +293,7 @@ a {
     font-weight: 500;
 }
 
-/* #about-us {
-    grid-column: 1/-1;
-    
-    height: 800px;
-    grid-row: 1/4;
-    margin-top: 70px;
-} */
+
 
 .about-us-image {
     margin-top: 20px;
@@ -855,7 +829,7 @@ article p {
 .sprite {
     width: 350px;
     height: 350px;
-    background-image: url('../images/teamSprites2.jpg');
+    background-image: url('../images/teamSprites.jpg');
 }
 
 #ceo { background-position: -350px 0; }
@@ -864,6 +838,9 @@ article p {
 
 .sprite:hover { background-position-y: -350px !important; }
 
+#lightbox {
+    display: none;
+}
 
 .lb_heading { text-align: left;
 font-size: 70px; 
@@ -884,7 +861,10 @@ border-radius: 40% 40% 40% 0;
     margin-top: 20px;
 }
 
-
+.role {
+    font-size: 25px;
+   
+}
  
 .imageContainer:hover .socialMedia {
 	opacity: 1;
